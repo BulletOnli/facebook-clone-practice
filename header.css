@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+}
+
+.connect {
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  padding-left: 200px;
+
+}
+
+.logo {
+  display: inline-block;
+  width: 350px;
+  padding-top: 170px;
+  padding-left: 190px;
+  margin-bottom: -40px;
+}

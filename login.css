@@ -1,0 +1,115 @@
+p {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  margin-right: 250px;
+  margin-top: -230px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.email-log {
+  font-size: 15px;
+  height: 50px;
+  width:  340px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border-color: rgb(221, 223, 226);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.pass-log {
+  font-size: 15px;
+  height: 50px;
+  width:  340px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border-color: rgb(221, 223, 226);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.login-button {
+  font-size: 20px;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 50px;
+  width:  356px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.forgot {
+  color: rgb(24, 119, 242);
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.line {
+  border-color: rgb(218, 221, 225);
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.new-acc-button {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(13, 173, 13);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.belowtext {
+  float: right;
+  margin-right: 275px;
+}
+
+.textbelow {
+  font-size: 15px;
+}
+
+.author {
+  font-size: 15px;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+  text-align: center;
+}
